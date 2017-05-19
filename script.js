@@ -25,6 +25,7 @@ var job, isMarried;
 
 //console.log(job);
 
+/*
 job = 'programmer';
 isMarried = true;
 
@@ -40,3 +41,27 @@ var lastName = prompt('What is the last name?');
 console.log(lastName);
 
 alert(name + ' is '  + age + ' years old ' + job + '. Is he married? ' + isMarried + '.');
+*/
+
+// Lecture: operators
+
+var now = 2016
+var birthYear = now - 32;
+
+birthYear = now - 32 * 2
+
+console.log(birthYear);
+
+
+var ageJohn = 30;
+var ageMark = 30;
+
+ageJohn = ageMark = (3 + 5) * 4 - 6;
+
+ageJohn++;
+ageJohn = ageJohn + 1;
+ageMark *= 2;
+
+ageMark = ageMark * 2;
+console.log(ageJohn);
+console.log(ageMark);
