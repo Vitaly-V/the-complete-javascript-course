@@ -98,7 +98,7 @@ if (23 === '23') {
 */
 
 // Lecture: boolean logic and switch
-
+/*
 var age = 20;
 
 if (age < 20) {
@@ -125,3 +125,29 @@ switch (job) {
   default:
     console.log('John does something else.');
 };
+*/
+
+var firstPersonName = 'John';
+var firstPersonAge = 23;
+var firstPersonHight = 171;
+var firstPersonScore = firstPersonHight + firstPersonAge * 5;
+
+var secondPersonName = 'Dave';
+var secondPersonAge = 23;
+var secondPersonHight = 176;
+var secondPersonScore = secondPersonHight + secondPersonAge * 5;
+
+var thirdPersonName = 'Mike';
+var thirdPersonAge = 23;
+var thirdPersonHight = 173;
+var thirdPersonScore = thirdPersonHight + thirdPersonAge * 5;
+
+if (firstPersonScore > secondPersonScore && firstPersonScore > thirdPersonScore) {
+    console.log('The winner is ' + firstPersonName + ', with score ' + firstPersonScore);
+} else if (secondPersonScore > firstPersonScore && secondPersonScore > thirdPersonScore) {
+    console.log('The winner is ' + secondPersonName + ', with score ' + secondPersonScore);
+} else if (thirdPersonScore > firstPersonScore && thirdPersonScore > secondPersonScore) {
+    console.log('The winner is ' + thirdPersonName + ', with score ' + thirdPersonScore);
+} else {
+    console.log('It is a draw. ' + firstPersonName + ' scored ' + firstPersonScore + ', ' + secondPersonName + ' scored ' + secondPersonScore + ', ' + thirdPersonName + ' scored ' + thirdPersonScore );
+}
