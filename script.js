@@ -155,7 +155,7 @@ if (firstPersonScore > secondPersonScore && firstPersonScore > thirdPersonScore)
 */
 
 // Lecture: Functions
-
+/*
 function calculateAge(yearOfBirth) {
     var age = 2017 - yearOfBirth;
     return age;
@@ -180,3 +180,24 @@ function yearsUntilRetirement(name, yearOfBirth) {
 yearsUntilRetirement('John', 1984);
 yearsUntilRetirement('Mike', 1969);
 yearsUntilRetirement('Mary', 1948);
+*/
+
+// Lecture: Statements and expressions
+
+function someFun(par) {
+    //code
+}
+
+var someFun = function(par) {
+    //code
+}
+
+// Expressions
+3 + 4;
+var x = 3;
+
+// Statements
+
+if (x === 5) {
+    //do something
+}
