@@ -282,7 +282,7 @@ john.age = age;
 
 console.log(john);
 */
-
+/*
 // v2.0
 var john = {
     name: 'John',
@@ -313,3 +313,67 @@ var mike = {
 }
 mike.calculateAge();
 console.log(mike);
+*/
+
+
+// Lecture: Loops
+/*
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+*/
+
+//var names = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
+/*
+for (var i = names.length - 1; i >= 0; i--) {
+    console.log(names[i]);
+}
+*/
+/*
+var i = 0;
+while(i < names.length) {
+    console.log(names[i]);
+    i++;
+}
+
+for (var i = 0; i <= 5; i++) {
+    console.log(i);
+    if (i === 1) {
+        continue;
+    }
+    if (i === 3) {
+        break;
+    }
+}
+*/
+
+
+// Code challenge 2
+/*
+var years1 = [1958, 1984, 1986, 2008, 2016];
+var years2 = [1953, 1999, 2001, 2008, 2010];
+
+function printFullAge(ages) {
+    var now = 2017;
+    var yearsOld = [];
+    var isFullAgeArr = [];
+
+    for (var i = ages.length - 1; i >= 0; i--) {
+        yearsOld.push(now - ages[i]);
+    }
+
+    for (var i = yearsOld.length - 1; i >= 0; i--) {
+        if ( yearsOld[i] >= 18 ) {
+            isFullAgeArr[i] = true;
+        } else {
+            isFullAgeArr[i] = false;
+        }
+    }
+    return isFullAgeArr;
+}
+
+var full1 = printFullAge(years1);
+var full2 = printFullAge(years2);
+console.log(full1);
+console.log(full2);
+*/
